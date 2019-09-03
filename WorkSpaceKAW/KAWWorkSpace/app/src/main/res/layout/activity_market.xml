@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kaw_work_space1"
+    android:orientation="vertical"
+    tools:context=".Market">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/quantity_noodles"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:met_baseColor="#fff"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="2"
+                app:met_primaryColor="#fff"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="#f7600e" />
+
+            <TextView
+                android:id="@+id/market_noodles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="80dp"
+                android:text="Noodles: "
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/quantity_green_tea"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:met_baseColor="#fff"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="2"
+                app:met_primaryColor="#fff"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="#f7600e" />
+
+            <TextView
+                android:id="@+id/market_green_tea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="80dp"
+                android:text="Green Tea: "
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/quantity_black_tea"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:met_baseColor="#fff"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="2"
+                app:met_primaryColor="#fff"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="#f7600e" />
+
+            <TextView
+                android:id="@+id/market_black_tea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="80dp"
+                android:text="Black Tea: "
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/quantity_nescafe_classic"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:met_baseColor="#fff"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="2"
+                app:met_primaryColor="#fff"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="#fff" />
+
+            <TextView
+                android:id="@+id/market_nescafe_classic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="80dp"
+                android:text="Nescafe Classic: "
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/quantity_nescafe_3_in_1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:met_baseColor="#fff"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="2"
+                app:met_primaryColor="#fff"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="#fff" />
+
+            <TextView
+                android:id="@+id/market_nescafe_3_in_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="80dp"
+                android:text="Nescafe 3 In 1: "
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/quantity_domte"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:met_baseColor="#fff"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="2"
+                app:met_primaryColor="#fff"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="#fff" />
+
+            <TextView
+                android:id="@+id/market_domte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="80dp"
+                android:text="Domte: "
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_r1_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:minHeight="60dp"
+                android:text="Buy"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                app:fButtonColor="#ded8d8"
+                app:shadowColor="#000"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

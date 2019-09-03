@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/kaw_work_space1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp">
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="Created By: Mohamed Gamal"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_name"
+            android:gravity="center"
+            android:text="01114767290"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btn_l0_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/show_infos_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:minHeight="60dp"
+                android:text="KAW Total Now"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                app:fButtonColor="#fff"
+                android:textStyle="bold"
+                app:shadowColor="#000"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn_l1_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/shearing_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:minHeight="60dp"
+                android:text="Shared Space"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                app:fButtonColor="#fff"
+                android:textStyle="bold"
+                app:shadowColor="#000"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_l2_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/rooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:minHeight="60dp"
+                android:text="Rooms"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                app:fButtonColor="#fff"
+                android:textStyle="bold"
+                app:shadowColor="#000"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_l3_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/marketing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:minHeight="60dp"
+                android:text="Hot Drinks"
+                android:textColor="#333"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                app:fButtonColor="#fff"
+                android:textStyle="bold"
+                app:shadowColor="#000"
+                app:shadowEnabled="true"
+                android:visibility="gone"
+                app:shadowHeight="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

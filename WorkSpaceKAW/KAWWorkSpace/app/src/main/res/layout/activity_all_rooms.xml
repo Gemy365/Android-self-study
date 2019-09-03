@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/kaw_work_space1"
+    tools:context=".AllRooms">
+
+    <LinearLayout
+        android:id="@+id/btn_l1_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room1"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l2_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room2"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_l3_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room3"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_l4_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room4"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_l5_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room5"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l6_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room6"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l7_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/room_hall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hall"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

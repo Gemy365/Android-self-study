@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/kaw_work_space1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ShearingArea">
+
+    <LinearLayout
+        android:id="@+id/btn_l1_individ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/create_new_individual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:text="Create Customer"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l2_individ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/show_infos_individual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:text="KAW Total Now"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:fButtonColor="#fff"
+            android:textStyle="bold"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+    </LinearLayout>
+
+</LinearLayout>
