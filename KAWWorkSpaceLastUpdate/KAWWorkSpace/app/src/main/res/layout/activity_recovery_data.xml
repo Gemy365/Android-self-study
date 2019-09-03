@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kaw_work_space1"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".RecoveryData">
+
+    <RelativeLayout
+        android:id="@+id/r1_recover_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64000000">
+
+        <ListView
+            android:id="@+id/list_user_recovery_view"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentStart="true"
+            android:divider="#ffffff"
+            android:dividerHeight="2px"
+            android:minHeight="500dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/store_into_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/list_user_recovery_view"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:minHeight="67dp"
+                android:text="Save Data Into Text File"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                app:fButtonColor="#fff"
+                app:shadowColor="#000"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

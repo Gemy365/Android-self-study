@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BarahWorkSpace</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string-array name="place_spinner">
+        <item>Shared Space</item>
+        <item>Shared 1</item>
+        <item>Shared 2</item>
+        <item>Session Room</item>
+        <item>Meeting Room</item>
+    </string-array>
+</resources>
+
