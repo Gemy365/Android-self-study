@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.user.recordinfile.MainActivity">
+
+    <TextView
+        android:id="@+id/Record"
+        style="@style/forAllText"
+        android:text="Record" />
+
+    <TextView
+        android:id="@+id/StopRecord"
+        style="@style/forAllText"
+        android:text="Stop Record!" />
+
+    <TextView
+        android:id="@+id/Play"
+        style="@style/forAllText"
+        android:text="Play" />
+
+    <TextView
+        android:id="@+id/Stop"
+        style="@style/forAllText"
+        android:text="Stop!" />
+
+</LinearLayout>
