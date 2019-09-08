@@ -1,0 +1,19 @@
+{
+  "family": [
+    {
+      "age": 24,
+      "role": "Wife"
+    },
+    {
+      "age": 20,
+      "role": "Daughter"
+    }
+  ],
+  "first_name": "Gemy",
+  "address": {
+    "City": "October",
+    "Country": "Egypt"
+  },
+  "age": 24,
+  "mail": "Mohamedgamal@yahoo.com"
+}
